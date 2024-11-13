@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Load data (if needed)
-data = pd.read_csv("D:\ML-Project\Indian_Personal_Finance_spending_habbits.csv")
+data = pd.read_csv("Indian_Personal_Finance_spending_habbits.csv")
 
 # Define your prediction function
 def predict_savings(age, dependents, occupation, city_tier, rent,
